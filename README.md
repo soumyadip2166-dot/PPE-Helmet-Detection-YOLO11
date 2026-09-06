@@ -63,6 +63,8 @@ Automatic safety alerts for PPE violations
 Deployment on edge devices
 Development of a web-based safety monitoring dashboard
 
+**Dataset and Model Performance Limitation:** The performance of the trained model is limited by the quality, quantity, and consistency of the available dataset annotations. The dataset contains a relatively limited number of annotated samples, and some annotations may be incomplete, inconsistent, or insufficiently representative of real-world construction-site conditions. Consequently, the model may exhibit reduced detection/classification accuracy, particularly for challenging images, partially visible PPE, different viewing angles, occlusions, and varying lighting conditions. Improved annotation quality, a larger and more diverse dataset, and comprehensive re-annotation are recommended for achieving more robust and generalizable model performance.
+
 
 **Disclaimer:** This project is intended for research, educational, and experimental purposes. Model predictions should not be considered a replacement for established workplace safety procedures, trained safety personnel, or applicable occupational safety regulations.
 
